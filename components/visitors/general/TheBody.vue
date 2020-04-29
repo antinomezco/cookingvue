@@ -16,16 +16,16 @@
 </template>
 
 <script>
-import Propstest from './Propstest.vue'
+// import Propstest from './Propstest.vue'
 import TheRecipePreview from './TheRecipePreview.vue'
-import SearchBar from '@/components/visitors/general/SearchBar'
+// import SearchBar from '@/components/visitors/general/SearchBar'
 
 export default {
   name: 'TheBody',
   components: {
-    TheRecipePreview,
-    SearchBar,
-    Propstest
+    TheRecipePreview
+    // SearchBar,
+    // Propstest
   },
   data: () => ({
     numberProp: 666,
