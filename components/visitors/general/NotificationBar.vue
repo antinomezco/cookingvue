@@ -14,7 +14,7 @@
 export default {
   name: 'NotificationBar',
   data: () => ({
-    notificationErrors: [{ color: 'red', id: 0, text: 'Still building recipe website' }]
+    notificationErrors: [{ color: 'red', id: 0, text: 'Things to do: 1) sorting, 2) pagination, 3)login , 4) backend, 5)prettify' }]
   })
 }
 </script>
